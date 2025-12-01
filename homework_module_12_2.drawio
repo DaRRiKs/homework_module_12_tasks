@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Страница-1" id="2s37Uo0EoAxCYIB9NAz_">
-    <mxGraphModel dx="1042" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="372" dy="237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Клиент" vertex="1">
+          <mxGeometry height="960" width="100" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Система" vertex="1">
+          <mxGeometry height="960" width="100" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Платежный шлюз" vertex="1">
+          <mxGeometry height="960" width="100" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Администратор площадки" vertex="1">
+          <mxGeometry height="960" width="100" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Подрядчики" vertex="1">
+          <mxGeometry height="960" width="100" x="1000" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Менеджер" vertex="1">
+          <mxGeometry height="960" width="100" x="1240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-9" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="590" x="10" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-10" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="620" x="780" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Запрос на бронирование" vertex="1">
+          <mxGeometry height="30" width="180" x="600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-12" edge="1" parent="1" source="MUkSyyHu1G76JZGxWT5a-1" style="endArrow=classic;html=1;rounded=0;" target="MUkSyyHu1G76JZGxWT5a-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="200" />
+            </Array>
+            <mxPoint x="130" y="250" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Запрос доступности площадки" vertex="1">
+          <mxGeometry height="30" width="210" x="90" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="MUkSyyHu1G76JZGxWT5a-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
